@@ -1,15 +1,15 @@
 <template>
   <view>
-    index page
+    test page
   </view>
 </template>
 
 <script>
 import wepy from 'wepy'
 
-export default class Index extends wepy.page {
+export default class Test extends wepy.page {
   config = {
-    navigationBarTitleText: 'index page'
+    navigationBarTitleText: 'test page'
   }
   components = {}
 
@@ -24,7 +24,7 @@ export default class Index extends wepy.page {
   }
 
   onLoad() {
-    console.log('index page load')
+    console.log('test page load')
   }
 }
 </script>
